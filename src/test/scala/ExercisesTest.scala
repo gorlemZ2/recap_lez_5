@@ -1,5 +1,3 @@
-import java.lang.System.Logger
-
 import org.scalatest._
 import flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
