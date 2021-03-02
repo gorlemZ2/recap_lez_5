@@ -5,10 +5,6 @@ public class Piramide extends Solido{
         super(altezza, larghezza, profondita);
     }
 
-    public String dettagli(){
-        return super.dettagli() ;
-    }
-
     public double calcVolume() {
         return (profondita*larghezza* altezza)/3;
     }

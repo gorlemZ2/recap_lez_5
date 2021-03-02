@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Solido {
 
     protected int altezza, larghezza, profondita;
@@ -12,17 +10,13 @@ public class Solido {
     }
 
     public String dettagli() {
-
-        String d = "Il solido ha volume  "+calcVolume();
-
-        return d;
+        return "Il solido ha volume  "+calcVolume();
     }
 
     public boolean equals(Solido other) {
-        this.altezza = altezza;
-        this.larghezza = larghezza;
-        this.profondita = profondita;
-        return this.altezza == other.altezza && this.larghezza == other.larghezza && this.profondita == other.profondita;
+        return this.altezza == other.altezza &&
+                this.larghezza == other.larghezza &&
+                this.profondita == other.profondita;
     }
 
     public double calcVolume() {
